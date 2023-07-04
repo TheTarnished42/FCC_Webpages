@@ -1,0 +1,132 @@
+<!DOCTYPE html/>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Technical Doc.</title>
+        <link href="styles_1_project3.css" rel="stylesheet">
+    </head>
+    <body>
+        <main id="main-doc">
+            <section class="main-section" id="Introduction">
+                <header><h1>Introduction</h1></header>
+                <p>HTML stands for HyperText Markup Language. It is used to design web pages using a markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between web pages. A markup language is used to define the text document within the tag which defines the structure of web pages. This language is used to annotate (make notes for the computer) text so that a machine can understand it and manipulate text accordingly. Most markup languages (e.g. HTML) are human-readable. The language uses tags to define what manipulation has to be done on the text. </p>
+                <p>HTML uses predefined tags and elements which tell the browser how to properly display the content. Remember to include closing tags. If omitted, the browser applies the effect of the opening tag until the end of the page.</p>
+                <ul>
+                    <li>Opening/closing tags:</li>
+                       <div class="code"><code>&lt;Tag&gt;.....&lt;/Tag&gt;</code></div>
+                    <li>Self closing tags:</li>
+                        <div class="code"><code>&lt;Tag ... /&gt;</code></div>
+                </ul>
+            </section>
+            <section class="main-section" id="Preamble">
+                <header><h1>Preamble</h1></header>
+                <p>This is the the start of the html file, and contains all the processing info about the file, which won't be visible on the webpage.</p>
+                <p>Tags include:</p>
+                <ol>
+                    <li>Doctype declaration</li>
+                    <li>The html tag</li>
+                    <li>Head tag</li>
+                </ol>
+                <p>Looks like this:</p>
+                <div class="code">
+                    <code>
+                        &lt;!DOCTYPE html&gt; <br>
+                        &lt;html&gt; <br>
+                        <span class="indent">&lt;head&gt;</span>
+                            <span class="indent">...</span> 
+                            <span class="indent">&lt;/head&gt;</span>
+                        &lt;/html&gt;    
+                    </code>
+                </div>
+            </section>
+            <section class="main-section" id="The_Head_Tag">
+                <header><h1>The Head Tag</h1></header>
+                <p>The &lt;head&gt; element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
+
+                    Metadata is data about the HTML document. Metadata is not displayed.
+                    
+                    Metadata typically define the document title, character set, styles, scripts, and other meta information.</p>
+                <p>The common head tags include:</p>
+                <ul>
+                    <li>Title:</li>
+                    <li>Meta:</li>
+                    <li>Link:</li>
+                </ul>
+                <p>Overall the head looks like:</p>
+                <div class="code">
+                    <code>
+                        ...<br>
+                        &lt;head&gt;<br>
+                        <span class="indent">&lt;title&gt; This is the title &lt;/title&gt;</span>
+                        <span class="indent">&lt;meta charset="utf-8"/&gt;</span>
+                        <span class="indent">&lt;link href="The link address"/&gt;</span>
+                        &lt;/head&gt;<br>
+                        ...
+                    </code>
+                </div>
+            </section>
+            <section class="main-section" id="The_Body">
+                <header><h1>The Body</h1></header>
+                <p>The &lt;body&gt; tag defines the document's body.
+
+                    The &lt;body&gt; element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+                    
+                    Note that there can only be one <body> element in an HTML document.</p>
+                <p>Common body division tags include:</p>
+                <ul>
+                    <li>Main</li>
+                    <li>Section</li>
+                    <li>Div</li>
+                    <li>footer</li>
+                </ul>
+                <p>Tags used to display text or code:</p>
+                <ul>
+                    <li>Paragraph tag "p"</li>
+                    <li>Span tag</li>
+                    <li>Code tag</li>
+                </ul>
+                <p>Overall it looks like:</p>
+                <div class="code">
+                    <code>
+                        &lt;body&gt;<br>
+                        <span class="indent">
+                            &lt;section&gt;                        
+                            <span class="indent">
+                                &lt;div&gt;
+                                <span class="indent">&lt;p&gt;...Text...&lt;/p&gt;</span>
+                            </span>
+                                <span class="indent">&lt;/div&gt;</span>
+                            &lt;/section&gt;    
+                        </span>
+                        &lt;/body&gt;    
+                    </code>
+                </div>
+            </section>
+            <section class="main-section" id="CSS">
+                <header><h1>CSS</h1></header>
+                <p>Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+
+                    With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!</p>
+                <p>Individual styling is of the form:</p>
+                <div class="code">
+                    <code>
+                        <p><span>Element</span>/.<span>class</span>/<span>#id</span> {<br>
+                        <span class="indent">
+                            property: attribute;<br>
+                        </span>
+                        }</p>
+                    </code>
+                </div>
+            </section>
+        </main>
+        <nav id="navbar">
+            <header><h1>Basic HTML</h1></header>
+            <span class="l"><a class="nav-link" href="#Introduction">Introduction</a></span>
+            <span class="l"><a class="nav-link" href="#Preamble">Preamble</a></span>
+            <span class="l"><a class="nav-link" href="#The_Head_Tag">The Head Tag</a></span>
+            <span class="l"><a class="nav-link" href="#The_Body">The Body</a></span>
+            <span class="l"><a class="nav-link" href="#CSS">CSS</a></span>
+        </nav>
+    </body>
+</html>

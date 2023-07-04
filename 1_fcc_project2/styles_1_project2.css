@@ -1,0 +1,114 @@
+
+body{
+font-family: sans-serif;
+background-color: #0C1C42;
+margin:0;
+}
+html{
+    margin:0;
+}
+
+h1{
+    text-align: center;
+    color: #D1CB2B;
+}
+
+.title{
+    width:inherit;
+    background-color: #24309E;
+    margin: 0 0 1.5rem 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
+}
+
+#quote{
+    text-align: center;
+    margin-bottom: 0.2rem;
+    font-size: 1.5rem;
+    color: white;
+} 
+#quoteby{
+    text-align: center;
+    margin: 0 auto auto 15rem ;
+    color: grey;
+    font-style: italic;
+
+}
+
+.image{
+    padding:2px;
+    margin: 10px auto 30px auto;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    background-color: #2A2A2E ;
+    border: 3px solid gold;
+    color: aliceblue;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+img{
+    display: block;
+    width:100%;
+    max-width: 100%;
+    margin: 1rem auto 1rem auto;
+    border-radius: 3px;
+    box-shadow: grey 2px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.text{
+    width: 72%;
+    border: 3px solid #0b157a ;
+    border-radius: 10px;
+    max-width: 600px;
+    margin:  auto;
+    background-color: #050939;
+    padding-top:none;
+    padding: 2rem;
+    text-align: left;
+    color: #ECECED;
+}
+h2{
+    margin:0;
+}
+
+section h2{
+    color: #D43838;
+}
+section h3{
+    color: #B0045A;
+    font-weight: 700;
+}
+section{
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid grey;
+    border-radius: 3px;
+    padding-bottom: 1rem;
+}
+
+.foot{
+    margin: 1rem 0 0 0;
+    background-color: rgb(56, 18, 93);
+    text-align: center;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    color: rgb(156, 155, 155);
+}
+
+.foot a:hover{
+    color: white;
+}
+.foot a{
+    color: rgb(29, 29, 199);
+}
+span{
+    color: red;
+    font-weight: 600;
+    font-style:normal;
+}
